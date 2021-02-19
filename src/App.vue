@@ -8,8 +8,8 @@
         </span>
         <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
           <router-link to="/"><span class="mr-5 hover:text-white">Home</span></router-link>
-          <router-link to="/hello"><span class="mr-5 hover:text-white">Hello</span></router-link>
-          <router-link to="/"><span class="mr-5 hover:text-white">Link 3</span></router-link>
+          <router-link to="/brain-ng"><span class="mr-5 hover:text-white">BrainNG</span></router-link>
+          <router-link to="/brain-craft"><span class="mr-5 hover:text-white">BrainCraft</span></router-link>
           <router-link to="/hello"><span class="mr-5 hover:text-white">Link 4</span></router-link>
         </nav>
         <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Button
