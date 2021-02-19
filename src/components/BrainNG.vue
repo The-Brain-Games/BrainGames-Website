@@ -3,8 +3,10 @@
   <section class="text-gray-400 bg-gray-900 body-font">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-20">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">BrainNG Servers</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-pink-600">Description.</p>
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-3 text-white">BrainNG Servers</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-pink-600 mb-4">We are proud to host two of the most popular servers on the BeamMP, one of which including one of the largest modpacks on the platform!</p>
+      <h2 class="title-font font-medium text-3xl text-white">{{results[1].cversion}}</h2>
+      <p class="leading-relaxed">BeamMP Version</p>
     </div>
     <div class="flex flex-wrap -m-4">
       <div class="lg:w-1/3 sm:w-1/2 p-4">
@@ -46,7 +48,7 @@
     <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
       <div class="w-full sm:p-4 px-4 mb-6">
         <h1 class="title-font font-medium text-xl mb-2 text-white">Vanilla Server</h1>
-        <div class="leading-relaxed text-pink-600">Description.</div>
+        <div class="leading-relaxed text-pink-600">Looking for something quick and fun to play with your friends? If so, this is the server for you!</div>
       </div>
       <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
         <h2 class="title-font font-medium text-3xl text-white">{{results[0].players}}</h2>
@@ -55,14 +57,6 @@
       <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
         <h2 class="title-font font-medium text-3xl text-white">{{results[0].maxplayers}}</h2>
         <p class="leading-relaxed">Max Players</p>
-      </div>
-      <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-        <h2 class="title-font font-medium text-3xl text-white">{{results[0].modstotal}}</h2>
-        <p class="leading-relaxed">Mods</p>
-      </div>
-      <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-        <h2 class="title-font font-medium text-3xl text-white">{{results[0].cversion}}</h2>
-        <p class="leading-relaxed">Version</p>
       </div>
     </div>
     <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
@@ -76,7 +70,7 @@
     <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
       <div class="w-full sm:p-4 px-4 mb-6">
         <h1 class="title-font font-medium text-xl mb-2 text-white">Modded Server</h1>
-        <div class="leading-relaxed text-pink-600">Description.</div>
+        <div class="leading-relaxed text-pink-600">Getting bored of the default vehicles? This server is one of the most modded on BeamMP with over 110+ mods to chose from!</div>
       </div>
       <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
         <h2 class="title-font font-medium text-3xl text-white">{{results[1].players}}</h2>
@@ -89,10 +83,6 @@
       <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
         <h2 class="title-font font-medium text-3xl text-white">{{results[1].modstotal}}</h2>
         <p class="leading-relaxed">Mods</p>
-      </div>
-      <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-        <h2 class="title-font font-medium text-3xl text-white">{{results[1].cversion}}</h2>
-        <p class="leading-relaxed">Version</p>
       </div>
     </div>
     <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">

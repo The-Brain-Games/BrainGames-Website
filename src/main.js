@@ -14,6 +14,7 @@ import Home from './components/Home.vue';
 import HelloWorld from './components/HelloWorld.vue';
 import BrainNG from './components/BrainNG.vue';
 import BrainCraft from './components/BrainCraft.vue';
+import AboutUs from './components/AboutUs.vue';
 
 const routes = [
   {
@@ -27,14 +28,19 @@ const routes = [
     component: HelloWorld
   },
   {
-    name: 'brain-ng',
-    path: '/brain-ng',
+    name: 'brainng',
+    path: '/brainng',
     component: BrainNG
   },
   {
-    name: 'brain-craft',
-    path: '/brain-craft',
+    name: 'braincraft',
+    path: '/braincraft',
     component: BrainCraft
+  },
+  {
+    name: 'about-us',
+    path: '/about-us',
+    component: AboutUs
   },
 
 ];
