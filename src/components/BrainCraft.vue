@@ -4,7 +4,7 @@
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-20">
       <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">BrainCraft</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-pink-600">Description.</p>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-pink-600">BrainCraft is a 1.16.5 semi-vanilla Minecraft smp server that was opened back in March of 2020. The server can be joined on version 1.16.5 of the bedrock or java edition's of Minecraft</p>
     </div>
     <div class="flex flex-wrap -m-4">
       <div class="lg:w-1/3 sm:w-1/2 p-4">

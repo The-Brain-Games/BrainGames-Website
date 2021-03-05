@@ -12,7 +12,7 @@
           <router-link to="/brainng"><span class="mr-5 hover:text-white">BrainNG</span></router-link>
           <router-link to="/about-us"><span class="mr-5 hover:text-white">About Us</span></router-link>
         </nav>
-        <a href="I dont have a link yet tee hee" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.patreon.com/thebraingames" target="_blank" rel="noopener noreferrer">
           <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Donate
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
