@@ -12,13 +12,11 @@
           <router-link to="/brainng"><span class="mr-5 hover:text-white">BrainNG</span></router-link>
           <router-link to="/about-us"><span class="mr-5 hover:text-white">About Us</span></router-link>
         </nav>
-        <!-- The button is commented out, but may be used for donations in the future.
-        <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Button
+        <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Donate
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
         </button>
-         -->
       </div>
     </header>
     <transition name="fade" mode="out-in">
