@@ -9,31 +9,32 @@
     <div class="flex flex-wrap -m-4">
       <div class="lg:w-1/3 sm:w-1/2 p-4">
         <div class="flex relative">
-          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/600x360">
+          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" :src="img1">
           <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
             <h2 class="tracking-widest text-sm title-font font-medium text-pink-400 mb-1">BrainCraft</h2>
-            <h1 class="title-font text-lg font-medium text-white mb-3">Shooting Stars</h1>
-            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+            <h1 class="title-font text-lg font-medium text-white mb-3">Semi-Vanilla</h1>
+            <p class="leading-relaxed">This server includes useful plugins such as land claims and a sign shop system.</p>
           </div>
         </div>
       </div>
       <div class="lg:w-1/3 sm:w-1/2 p-4">
         <div class="flex relative">
-          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/600x360">
+          <!-- Im still looking for a photo for this. -->
+          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" :src="img2">
           <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
             <h2 class="tracking-widest text-sm title-font font-medium text-pink-400 mb-1">BrainCraft</h2>
-            <h1 class="title-font text-lg font-medium text-white mb-3">The Catalyzer</h1>
-            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+            <h1 class="title-font text-lg font-medium text-white mb-3">Community</h1>
+            <p class="leading-relaxed">BrainCraft is a small, humble community who are very active on the <a href="https://discord.gg/TfvF9J8Ks8" style="color:#753e61" target="_blank" rel="noopener noreferrer">Discord</a>.</p>
           </div>
         </div>
       </div>
       <div class="lg:w-1/3 sm:w-1/2 p-4">
         <div class="flex relative">
-          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/600x360">
+          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" :src="img3">
           <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
             <h2 class="tracking-widest text-sm title-font font-medium text-pink-400 mb-1">BrainCraft</h2>
-            <h1 class="title-font text-lg font-medium text-white mb-3">The 400 Blows</h1>
-            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+            <h1 class="title-font text-lg font-medium text-white mb-3">Economy</h1>
+            <p class="leading-relaxed">BrainCraft has a completely player built economy using diamonds as a currency and player built shops.</p>
           </div>
         </div>
       </div>
@@ -44,8 +45,8 @@
   <div class="container px-5 py-24 mx-auto flex flex-wrap">
     <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
       <div class="w-full sm:p-4 px-4 mb-6">
-        <h1 class="title-font font-medium text-xl mb-2 text-white">BrainCraft Server Status</h1>
-        <div class="leading-relaxed text-pink-600">Description.</div>
+        <h1 class="title-font font-medium text-2xl mb-2 text-white">BrainCraft Server Status:</h1>
+        <!-- <div class="leading-relaxed text-pink-600">The current status of BrainCraft</div> -->
       </div>
       <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
         <h2 class="title-font font-medium text-3xl text-white">{{results.onlinePlayers}}</h2>
@@ -74,7 +75,10 @@
    data() {
     return {
      results: [],
-     players: []
+     players: [],
+     img1: require('@/assets/BrainCraft/shops.jpg'),
+     img2: require('@/assets/BrainCraft/shops.jpg'),
+     img3: require('@/assets/BrainCraft/district.jpg')
     }
    },
    created() {
