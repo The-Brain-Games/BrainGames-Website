@@ -3,8 +3,8 @@
     <header class="text-gray-400 bg-gray-900 body-font">
       <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <span class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-          <img class="object-cover object-center rounded" alt="BrainGames Logo" width="50px" :src="brain">
-          <span class="ml-3 text-xl">BrainGames</span>
+          <img class="object-cover object-center rounded" alt="Brain Games Logo" width="50px" :src="brain">
+          <span class="ml-3 text-xl">Brain Games</span>
         </span>
         <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
           <router-link to="/"><span class="mr-5 hover:text-white">Home</span></router-link>

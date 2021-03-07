@@ -19,7 +19,6 @@
       </div>
       <div class="lg:w-1/3 sm:w-1/2 p-4">
         <div class="flex relative">
-          <!-- Im still looking for a photo for this. -->
           <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" :src="img2">
           <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
             <h2 class="tracking-widest text-sm title-font font-medium text-pink-400 mb-1">BrainCraft</h2>
@@ -42,7 +41,7 @@
   </div>
 </section>
 <section class="text-gray-400 bg-gray-900 body-font">
-  <div class="container px-5 py-24 mx-auto flex flex-wrap">
+  <div class="container px-5 py-6 mx-auto flex flex-wrap">
     <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
       <div class="w-full sm:p-4 px-4 mb-6">
         <h1 class="title-font font-medium text-2xl mb-2 text-white">BrainCraft Server Status:</h1>
@@ -77,7 +76,7 @@
      results: [],
      players: [],
      img1: require('@/assets/BrainCraft/shops.jpg'),
-     img2: require('@/assets/BrainCraft/shops.jpg'),
+     img2: require('@/assets/BrainCraft/community.jpg'),
      img3: require('@/assets/BrainCraft/district.jpg')
     }
    },
