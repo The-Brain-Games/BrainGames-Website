@@ -1,6 +1,6 @@
 <template>
   <main class="profile-page">
-    <section class="relative block bg-gray-900" style="height: 500px;">
+    <section class="relative block bg-gray-900" style="height: 300px;">
       <div
         class="absolute top-0 w-full h-full bg-center bg-cover"
       >
@@ -78,7 +78,7 @@
       </div>
     </section>
 
-    <section class="relative block bg-gray-900" style="height: 500px;">
+    <section class="relative block bg-gray-900" style="height: 300px;">
       <div
         class="absolute top-0 w-full h-full bg-center bg-cover"
       >
@@ -155,6 +155,15 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-gray-400 bg-gray-900 body-font py-8">
+      <div class="flex items-start justify-center space-x-5">
+        <div class="flex flex-col text-center w-full mb-20">
+          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">A Little History...</h1>
+          <p class="leading-relaxed text-pink-600 text-center mx-60">Brain Games was first founded in early 2020 by user GrantBGreat. The first server made under Brain Games was the whitelisted <a href="BrainCraft" style="color:#820d94">BrainCraft</a> server. Some months later, perfectsquare150 joined Brain Games, but also started playing BeamMP with GrantBGreat. After a while he decided to start his own BeamMP server and we built it under Brain Games as a server called <a href="BrainNG" style="color:#820d94">BrainNG</a>. BrainNG was the first server under Brain Games to go public and with the massive success from the modded BrainNG server, Grant decided to make the BrainCraft server public. The public BrainNG server also inspired Grant to make the <a href="https://top.gg/bot/784631695902375956" style="color:#820d94" target="_blank" rel="noopener noreferrer">BeamMP Status discord bot</a>, which is now used in many diffrent community's accross BeamMP. Since then we have only been growing and none of this would have been possible without you guys, so thank you.</p>
         </div>
       </div>
     </section>
