@@ -1,44 +1,173 @@
 <template>
-<div>
-  <section class="text-gray-400 bg-gray-900 body-font">
-  <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-col text-center w-full mb-20">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">About Us</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-pink-600">Description.</p>
-    </div>
-    <div class="flex flex-wrap -m-4">
-      <div class="lg:w-1/3 sm:w-1/2 p-4">
-        <div class="flex relative">
-          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/600x360">
-          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-            <h2 class="tracking-widest text-sm title-font font-medium text-pink-400 mb-1">Brain Games</h2>
-            <h1 class="title-font text-lg font-medium text-white mb-3">Title</h1>
-            <p class="leading-relaxed">Description.</p>
+  <main class="profile-page">
+    <section class="relative block bg-gray-900" style="height: 500px;">
+      <div
+        class="absolute top-0 w-full h-full bg-center bg-cover"
+      >
+      </div>
+      <div
+        class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+        style="height: 70px; transform: translateZ(0px);"
+      >
+        <svg
+          class="absolute bottom-0 overflow-hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          version="1.1"
+          viewBox="0 0 2560 100"
+          x="0"
+          y="0"
+        >
+        </svg>
+      </div>
+    </section>
+    <section class="relative bg-gray-900 py-8">
+      <div class="container mx-auto px-4">
+        <div
+          class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64"
+        >
+          <div class="px-6">
+            <div class="flex flex-wrap justify-center">
+              <div
+                class="w-full lg:w-3/12 px-4 py-6 lg:order-2 flex justify-center"
+              >
+                <div class="relative">
+                  <img
+                    alt="..."
+                    :src="GrantBGreat"
+                    class="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16"
+                    style="max-width: 150px;"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="text-center mt-12">
+              <h3
+                class="text-4xl font-semibold leading-normal mb-2 text-gray-800 mb-2"
+              >
+                GrantBGreat
+              </h3>
+              <div
+                class="text-sm leading-normal mt-0 mb-2 text-gray-500 font-bold uppercase"
+              >
+                <i
+                  class="fas fa-map-marker-alt mr-2 text-lg text-gray-500"
+                ></i>
+                Toronto, Ontairo
+              </div>
+              <div class="mb-2 text-gray-700 mt-10">
+                <i class="fas fa-briefcase mr-2 text-lg text-gray-500"></i
+                >Founder of Brain Games & owner of BrainCraft
+              </div>
+              <!-- <div class="mb-2 text-gray-700">
+                <i class="fas fa-university mr-2 text-lg text-gray-500"></i
+                >University of Computer Science
+              </div> -->
+            </div>
+            <div class="mt-10 py-10 border-t border-gray-300 text-center">
+              <div class="flex flex-wrap justify-center">
+                <div class="w-full lg:w-9/12 px-4">
+                  <p class="mb-4 text-lg leading-relaxed text-gray-800">
+                    Hi, I'm GrantBGreat, but you can call me by my name, Grant. I first founded Brain Games through creating the originally whitelisted BrainCraft server back in late March of 2020 for just my friends and I. I engage in programming and spend hours at robotics every week, working with team <a href="https://www.instagram.com/frcteam7558/" style="text-decoration:underline; color:#575757" target="_blank" rel="noopener noreferrer">ALT F4</a>. Outside of tech, I also enjoy riding my ATV and playing with my dog (the dog in my pfp).
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="lg:w-1/3 sm:w-1/2 p-4">
-        <div class="flex relative">
-          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/600x360">
-          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-            <h2 class="tracking-widest text-sm title-font font-medium text-pink-400 mb-1">Brain Games</h2>
-            <h1 class="title-font text-lg font-medium text-white mb-3">Title</h1>
-            <p class="leading-relaxed">Description.</p>
+    </section>
+
+    <section class="relative block bg-gray-900" style="height: 500px;">
+      <div
+        class="absolute top-0 w-full h-full bg-center bg-cover"
+      >
+      </div>
+      <div
+        class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+        style="height: 70px; transform: translateZ(0px);"
+      >
+        <svg
+          class="absolute bottom-0 overflow-hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          version="1.1"
+          viewBox="0 0 2560 100"
+          x="0"
+          y="0"
+        >
+        </svg>
+      </div>
+    </section>
+    <section class="relative bg-gray-900 py-8">
+      <div class="container mx-auto px-4">
+        <div
+          class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64"
+        >
+          <div class="px-6">
+            <div class="flex flex-wrap justify-center">
+              <div
+                class="w-full lg:w-3/12 px-4 py-6 lg:order-2 flex justify-center"
+              >
+                <div class="relative">
+                  <img
+                    alt="..."
+                    :src="perfectsquare150"
+                    class="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16"
+                    style="max-width: 150px;"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="text-center mt-12">
+              <h3
+                class="text-4xl font-semibold leading-normal mb-2 text-gray-800 mb-2"
+              >
+                perfectsquare150
+              </h3>
+              <div
+                class="text-sm leading-normal mt-0 mb-2 text-gray-500 font-bold uppercase"
+              >
+                <i
+                  class="fas fa-map-marker-alt mr-2 text-lg text-gray-500"
+                ></i>
+                Toronto, Ontairo
+              </div>
+              <div class="mb-2 text-gray-700 mt-10">
+                <i class="fas fa-briefcase mr-2 text-lg text-gray-500"></i
+                >Owner of BrainNG
+              </div>
+              <!-- <div class="mb-2 text-gray-700">
+                <i class="fas fa-university mr-2 text-lg text-gray-500"></i
+                >University of Computer Science
+              </div> -->
+            </div>
+            <div class="mt-10 py-10 border-t border-gray-300 text-center">
+              <div class="flex flex-wrap justify-center">
+                <div class="w-full lg:w-9/12 px-4">
+                  <p class="mb-4 text-lg leading-relaxed text-gray-800">
+                    Hi, I'm PerfectSquare150 but you can call me square ;) I joined the Brain Games group back in September and brought with me the idea to host multiplayer BeamNG servers. Aside from video games, I love to tinker with electronics (especially 3D printers) and work as a mechanical lead on the Canadian FRC Team, <a href="https://www.instagram.com/frcteam7558/" style="text-decoration:underline; color:#575757" target="_blank" rel="noopener noreferrer">ALT F4</a>. In my spare time I love going for long drives and working on my car.
+                  </p>
+                  <p class="mb-2 text-small leading-relaxed text-gray-600">
+                    Note: If you ever reffer to my car, call it a hair dryer.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="lg:w-1/3 sm:w-1/2 p-4">
-        <div class="flex relative">
-          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/600x360">
-          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-            <h2 class="tracking-widest text-sm title-font font-medium text-pink-400 mb-1">Brain Games</h2>
-            <h1 class="title-font text-lg font-medium text-white mb-3">Title</h1>
-            <p class="leading-relaxed">Description.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-</div>
+    </section>
+  </main>
 </template>
+
+<script>
+export default {
+    data () {
+        return {
+            perfectsquare150: require('@/assets/AboutUs/perfectsquare150.png'),
+            GrantBGreat: require('@/assets/AboutUs/GrantBGreat.jpg')
+        }
+    },
+}
+</script>
