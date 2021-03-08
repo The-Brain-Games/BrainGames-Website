@@ -59,10 +59,6 @@
                 <i class="fas fa-briefcase mr-2 text-lg text-gray-500"></i
                 >Founder of Brain Games & owner of BrainCraft
               </div>
-              <!-- <div class="mb-2 text-gray-700">
-                <i class="fas fa-university mr-2 text-lg text-gray-500"></i
-                >University of Computer Science
-              </div> -->
             </div>
             <div class="mt-10 py-10 border-t border-gray-300 text-center">
               <div class="flex flex-wrap justify-center">
@@ -137,10 +133,6 @@
                 <i class="fas fa-briefcase mr-2 text-lg text-gray-500"></i
                 >Owner of BrainNG
               </div>
-              <!-- <div class="mb-2 text-gray-700">
-                <i class="fas fa-university mr-2 text-lg text-gray-500"></i
-                >University of Computer Science
-              </div> -->
             </div>
             <div class="mt-10 py-10 border-t border-gray-300 text-center">
               <div class="flex flex-wrap justify-center">
