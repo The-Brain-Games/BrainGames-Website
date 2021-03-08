@@ -55,7 +55,7 @@
                 ></i>
                 Toronto, Ontairo
               </div>
-              <div class="mb-2 text-gray-700 mt-10">
+              <div class="mb-2 text-gray-700">
                 <i class="fas fa-briefcase mr-2 text-lg text-gray-500"></i
                 >Founder of Brain Games & owner of BrainCraft
               </div>
@@ -133,7 +133,7 @@
                 ></i>
                 Toronto, Ontairo
               </div>
-              <div class="mb-2 text-gray-700 mt-10">
+              <div class="mb-2 text-gray-700">
                 <i class="fas fa-briefcase mr-2 text-lg text-gray-500"></i
                 >Owner of BrainNG
               </div>
