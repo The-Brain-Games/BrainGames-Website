@@ -14,6 +14,7 @@ import Home from './components/Home.vue';
 import BrainNG from './components/BrainNG.vue';
 import BrainCraft from './components/BrainCraft.vue';
 import AboutUs from './components/AboutUs.vue';
+import ModSubmit from './components/ModSubmit.vue';
 
 const routes = [
   {
@@ -35,6 +36,11 @@ const routes = [
     name: 'about-us',
     path: '/about-us',
     component: AboutUs
+  },
+  {
+    name: 'mod-submit',
+    path: '/mod-submit',
+    component: ModSubmit
   },
 
 ];

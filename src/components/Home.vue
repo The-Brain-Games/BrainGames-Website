@@ -1,5 +1,14 @@
 <template>
 <div>
+  <div class="w-full bg-cover bg-center header-image" style="height:32rem;">
+        <div class="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
+            <div class="text-center">
+                <h1 class="text-white text-2xl font-semibold uppercase md:text-3xl">The Brain Games</h1>
+                <button class="mt-4 px-4 py-2 bg-blue-600 text-white text-sm uppercase font-medium rounded hover:bg-blue-500 focus:outline-none focus:bg-blue-500" style="margin-right: 10px; background-color: #db2777;">Join</button> 
+                <button class="mt-4 px-4 py-2 bg-blue-600 text-white text-sm uppercase font-medium rounded hover:bg-blue-500 focus:outline-none focus:bg-blue-500">Donate</button>
+            </div>
+        </div>
+    </div>
   <section class="text-gray-400 bg-gray-900 body-font">
     <div class="container px-5 py-24 mx-auto space-y-6">
       <div class="flex items-start justify-center space-x-5">
@@ -32,5 +41,7 @@ export default {
 </script>
 
 <style scoped>
-
+.header-image {
+  background-image: url('~@/assets/header.jpg');
+}
 </style>
