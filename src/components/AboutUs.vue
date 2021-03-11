@@ -53,7 +53,7 @@
                 <i
                   class="fas fa-map-marker-alt mr-2 text-lg text-gray-500"
                 ></i>
-                Toronto, Ontairo
+                Toronto, Ontario
               </div>
               <div class="mb-2 text-gray-700">
                 <i class="fas fa-briefcase mr-2 text-lg text-gray-500"></i
@@ -127,7 +127,7 @@
                 <i
                   class="fas fa-map-marker-alt mr-2 text-lg text-gray-500"
                 ></i>
-                Toronto, Ontairo
+                Toronto, Ontario
               </div>
               <div class="mb-2 text-gray-700">
                 <i class="fas fa-briefcase mr-2 text-lg text-gray-500"></i
@@ -204,7 +204,7 @@
                 <i
                   class="fas fa-map-marker-alt mr-2 text-lg text-gray-500"
                 ></i>
-                Toronto, Ontairo
+                Toronto, Ontario
               </div>
               <div class="mb-2 text-gray-700">
                 <i class="fas fa-briefcase mr-2 text-lg text-gray-500"></i
