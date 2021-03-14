@@ -81,7 +81,7 @@
     }
    },
    created() {
-   let uri = 'https://stlouis2.cubehostingmc.com:24568/mc';
+   let uri = 'https://api.realbraingames.com:24568/mc';
    this.axios.get(uri).then(res => {
     this.results = res.data;
     this.players = res.data.samplePlayers;

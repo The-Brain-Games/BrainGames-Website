@@ -45,6 +45,6 @@ const routes = [
 
 ];
 
-const router = new VueRouter({ mode: 'history', routes: routes});
+const router = new VueRouter({ mode: 'hash', routes: routes});
 
 new Vue(Vue.util.extend({ router }, App)).$mount('#app');
