@@ -81,7 +81,7 @@
     }
    },
    created() {
-   let uri = 'http://localhost:4000/mc';
+   let uri = 'https://stlouis2.cubehostingmc.com:24568/mc';
    this.axios.get(uri).then(res => {
     this.results = res.data;
     this.players = res.data.samplePlayers;

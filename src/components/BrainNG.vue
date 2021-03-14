@@ -118,7 +118,7 @@
       }
     }, 
       created() {
-      let uri = 'http://localhost:4000/beammp';
+      let uri = 'https://stlouis2.cubehostingmc.com:24568/beammp';
       this.axios.get(uri).then(res => {
         this.results = res.data;
         this.vanillaPlayers = res.data[0].playerslist.split(";");
