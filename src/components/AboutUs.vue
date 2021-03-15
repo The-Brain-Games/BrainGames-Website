@@ -138,7 +138,7 @@
               <div class="flex flex-wrap justify-center">
                 <div class="w-full lg:w-9/12 px-4">
                   <p class="mb-4 text-lg leading-relaxed text-gray-800">
-                    Hi, I'm PerfectSquare150 but you can call me square. I joined the Brain Games group back in September and brought with me the idea to host multiplayer BeamNG servers. Aside from video games, I love to tinker with electronics (especially 3D printers) and work as a mechanical lead on the Canadian FRC Team, <a href="https://www.instagram.com/frcteam7558/" style="text-decoration:underline; color:#575757" target="_blank" rel="noopener noreferrer">ALT F4</a>. In my spare time I love going for long drives and working on my car.
+                    Hi, I'm PerfectSquare150 but you can call me Zac. I joined the Brain Games group back in September and brought with me the idea to host multiplayer BeamNG servers. Aside from video games, I love to tinker with electronics (especially 3D printers) and work as a mechanical lead on the Canadian FRC Team, <a href="https://www.instagram.com/frcteam7558/" style="text-decoration:underline; color:#575757" target="_blank" rel="noopener noreferrer">ALT F4</a>. In my spare time I love going for long drives and working on my car.
                   </p>
                   <p class="mb-2 text-small leading-relaxed text-gray-600">
                     Note: If you ever refer to my car, call it a hair dryer.
