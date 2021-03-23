@@ -61,10 +61,10 @@
 
   <div class="container mx-auto m-auto" style="max-width: 800px; margin-top: 150px;">
     <h2 class="text-white text-3xl mb-1 font-medium title-font">Mod Suggestion Form</h2>
-    <p class="leading-relaxed mb-5 text-white">Would you like to see a mod you choose added on the BeamMP's BrainNG modded servers? Suggest one below and your admins will approve them to be added!
+    <p class="leading-relaxed mb-5 text-white">Would you like to see a mod you choose added onto the BrainNG modded server? Suggest one below and your admins will approve them to be added!
       <br>
       <br>
-      The sky's the limit, we love mods and we know you do as well.</p>
+      The sky's the limit, we love mods and we know you do as well!</p>
     <div class="relative mb-4">
       <label for="name" class="leading-7 text-sm text-gray-400">Discord Username</label>
       <input type="text" id="name" name="name" placeholder="BrainGames#0000" class="w-full bg-gray-800 rounded border border-gray-700 focus:border-pink-500 focus:ring-2 focus:ring-pink-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
