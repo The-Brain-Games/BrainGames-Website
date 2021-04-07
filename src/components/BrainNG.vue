@@ -59,7 +59,7 @@
     </div>
   </div>
 
-  <div class="container mx-auto m-auto" style="max-width: 800px; margin-top: 150px;">
+  <!-- <div class="container mx-auto m-auto" style="max-width: 800px; margin-top: 150px;">
     <h2 class="text-white text-3xl mb-1 font-medium title-font">Mod Suggestion Form</h2>
     <p class="leading-relaxed mb-5 text-white">Would you like to see a mod you choose added onto the BrainNG modded server? Suggest one below and your admins will approve them to be added!
       <br>
@@ -85,7 +85,7 @@
       </ol>
     </div>
     <button class="text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded text-lg mb-48">Submit</button>
-  </div>
+  </div> -->
 </section>
 </div>
 </template>
