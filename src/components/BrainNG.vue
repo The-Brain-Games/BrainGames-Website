@@ -1,7 +1,7 @@
 <template>
 <div>
   <section class="text-gray-400 bg-gray-900 body-font">
-  <div class="container px-5 py-24 mx-auto">
+  <div class="container px-5 py-12 mx-auto">
     <div class="flex flex-col text-center w-full mb-20">
       <h1 class="sm:text-3xl text-2xl font-medium title-font mb-3 text-white">BrainNG Servers</h1>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-pink-600 mb-4">We are proud to host two of the most popular servers on the BeamMP, one of which including one of the largest modpacks on the platform!</p>
@@ -11,8 +11,12 @@
   </div>
 </section>
 
+
 <section class="text-gray-400 bg-gray-900 body-font">
-  <div class="container px-5 py-6 mx-auto flex flex-wrap">
+  <img class="object-cover h-96 w-full" :src="vanillaImg">
+</section>
+<section class="text-gray-400 bg-gray-900 body-font">
+  <div class="container px-5 py-24 mx-auto flex flex-wrap">
     <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
       <div class="w-full sm:p-4 px-4 mb-6">
         <h1 class="title-font font-medium text-xl mb-2 text-white">Vanilla Server</h1>
@@ -33,8 +37,12 @@
     </div>
   </div>
 </section>
+
 <section class="text-gray-400 bg-gray-900 body-font">
-  <div class="container px-5 py-6 mx-auto flex flex-wrap">
+  <img class="object-cover h-96 w-full" :src="moddedImg">
+</section>
+<section class="text-gray-400 bg-gray-900 body-font">
+  <div class="container px-5 py-24 mx-auto flex flex-wrap">
     <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
       <div class="w-full sm:p-4 px-4 mb-6">
         <h1 class="title-font font-medium text-xl mb-2 text-white">Modded Server</h1>
@@ -99,7 +107,9 @@
      moddedPlayers: [],
      suggestions: ["None"],
      name: "",
-     url: ""
+     url: "",
+     vanillaImg: require('@/assets/BrainNG/D15.png'),
+     moddedImg: require('@/assets/BrainNG/crawling.png')
     }
    }, methods: {
       add() {
