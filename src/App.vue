@@ -26,6 +26,40 @@
     <transition name="fade" mode="out-in">
       <router-view/>
     </transition>
+    <footer class="footer text-gray-400 bg-gray-900 body-font relative pt-1 border-b-2 border-pink-700">
+      <div class="container mx-auto px-6">
+
+        <div class="sm:flex sm:mt-8">
+          <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
+            <div class="flex flex-col">
+              <span class="font-bold text-white uppercase mb-2">Pages</span>
+              <span class="my-2"><router-link to="/braincraft"><div class="text-pink-700 text-md hover:text-pink-500">BrainCraft</div></router-link></span>
+              <span class="my-2"><router-link to="/brainng"><div class="text-pink-700 text-md hover:text-pink-500">BrainNG</div></router-link></span>
+              <span class="my-2"><router-link to="/about-us"><div class="text-pink-700 text-md hover:text-pink-500">About us</div></router-link></span>
+            </div>
+            <div class="flex flex-col">
+              <span class="font-bold text-white uppercase mt-4 md:mt-0 mb-2">Support</span>
+              <span class="my-2"><a href="https://www.patreon.com/thebraingames" target="_blank" rel="noopener noreferrer" class="text-pink-700  text-md hover:text-pink-500">Donate</a></span>
+              <span class="my-2"><a href="https://discord.gg/TfvF9J8Ks8" target="_blank" rel="noopener noreferrer" class="text-pink-700 text-md hover:text-pink-500">BrainCraft Discord</a></span>
+              <span class="my-2"><a href="https://discord.gg/vhGhEsDyCf" target="_blank" rel="noopener noreferrer" class="text-pink-700 text-md hover:text-pink-500">BrainNG Discord</a></span>
+            </div>
+            <div class="flex flex-col">
+              <span class="font-bold text-white uppercase mt-4 md:mt-0 mb-2">Source</span>
+              <span class="my-2"><a href="https://github.com/The-Brain-Games/BrainGames-Website" target="_blank" rel="noopener noreferrer" class="text-pink-700 text-md hover:text-pink-500">Github</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mx-auto px-6">
+        <div class="mt-16 border-t-2 border-gray-300 flex flex-col items-center">
+          <div class="sm:w-2/3 text-center py-6">
+            <p class="text-sm text-pink-700 font-bold mb-2">
+              Brain Games
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
