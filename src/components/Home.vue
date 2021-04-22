@@ -84,6 +84,7 @@
           <div class="flex flex-col md:w-1/2 md:pl-12">
             <center>
               <iframe
+                class="w-full mb-20 max-w-md"
                 src="https://discord.com/widget?id=789657841895735337&theme=dark"
                 width="350"
                 height="500"
@@ -142,6 +143,7 @@
           <div class="flex flex-col md:w-1/2 md:pl-12">
             <center>
               <iframe
+                class="w-full mb-20 max-w-md"
                 src="https://discord.com/widget?id=789657841895735337&theme=dark"
                 width="350"
                 height="500"
