@@ -16,7 +16,7 @@
           <div class="no-mobile">
           </div>
         </nav>
-        <span class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0" style="margin-right: 15px;">
+        <span class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0" id="shift">
             <span class="blink_me" style="margin-right: 5px;" v-if="online == 2"><svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="#3bc38e" /></svg> </span><strong style="color: #3bc38e;" v-if="online == 2"> Online</strong>
             <span class="blink_me" style="margin-right: 5px;" v-if="online == 1"><svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="yellow" /></svg> </span><strong style="color: yellow;" v-if="online == 1"> Outages</strong>
             <span class="" style="margin-right: 5px;" v-if="online == 0"><svg height="10" width="10"><circle cx="5" cy="5" r="5" fill="red" /></svg> </span><strong style="color: red;" v-if="online == 0"> Offline</strong>
@@ -28,7 +28,6 @@
             </svg>
           </button>
         </a>
-          
       </div>
     </header>
     <transition name="fade" mode="out-in">
@@ -141,6 +140,16 @@ export default {
 @keyframes blinker {
   50% {
     opacity: 0;
+  }
+}
+
+#shift {
+    margin-right: 15px;
+  }
+
+@media only screen and (max-width: 800px) {
+  #shift {
+    margin-right: 0px;
   }
 }
 </style>
