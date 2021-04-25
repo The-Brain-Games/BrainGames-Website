@@ -85,7 +85,7 @@
             <center>
               <iframe
                 class="w-full mb-20 max-w-md"
-                src="https://discord.com/widget?id=789657841895735337&theme=dark"
+                src="https://discord.com/widget?id=804162605107249213&theme=dark"
                 width="350"
                 height="500"
                 allowtransparency="true"
