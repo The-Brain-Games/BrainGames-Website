@@ -5,7 +5,7 @@
     <div class="flex flex-col text-center w-full mb-20">
       <h1 class="sm:text-3xl text-2xl font-medium title-font mb-3 text-white">BrainNG Servers</h1>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-pink-600 mb-4">We are proud to host two of the most popular servers on the BeamMP, one of which including one of the largest modpacks on the platform!</p>
-      <h2 class="title-font font-medium text-3xl text-white" v-if="vanillaServer.cversion">{{vanillaServer.cversion}}</h2><h2 class="title-font font-medium text-3xl text-white" v-else-if="moddedServer.cversion">{{moddedServer.cversion}}</h2><h2 class="title-font font-medium text-3xl text-white" v-else>N/A</h2>
+      <h2 class="title-font font-medium text-3xl text-white" v-if="vanillaServer.version">{{vanillaServer.version}}</h2><h2 class="title-font font-medium text-3xl text-white" v-else-if="moddedServer.cversion">{{moddedServer.cversion}}</h2><h2 class="title-font font-medium text-3xl text-white" v-else>N/A</h2>
       <p class="leading-relaxed">BeamMP Version</p>
     </div>
   </div>
