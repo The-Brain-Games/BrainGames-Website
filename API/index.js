@@ -162,7 +162,7 @@ function printWelcome() {
 
 function loadMCData() {
     var prevOffline = mcDB.getData("/status").status == 'offline';
-    util.status('mc.meetandgeek.ca')
+    util.status('mc.realbraingames.com')
         .then((response) => {
             mcDB.push("/status", response);
             if (prevOffline) {
