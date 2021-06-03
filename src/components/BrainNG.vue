@@ -4,7 +4,7 @@
   <div class="container px-5 py-12 mx-auto">
     <div class="flex flex-col text-center w-full mb-20">
       <h1 class="sm:text-3xl text-2xl font-medium title-font mb-3 text-white">BrainNG Servers</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-pink-600 mb-4">We are proud to host two of the most popular servers on the BeamMP, one of which including one of the largest modpacks on the platform!</p>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-pink-600 mb-4">We are proud to host two great BeamMP servers, one of which including one of the largest modpacks on the platform!</p>
       <h2 class="title-font font-medium text-3xl text-white" v-if="vanillaServer.version">{{vanillaServer.version}}</h2><h2 class="title-font font-medium text-3xl text-white" v-else-if="moddedServer.cversion">{{moddedServer.cversion}}</h2><h2 class="title-font font-medium text-3xl text-white" v-else>N/A</h2>
       <p class="leading-relaxed">BeamMP Version</p>
     </div>
@@ -52,15 +52,18 @@
         <div class="leading-relaxed text-pink-600">Getting bored of the default vehicles? This server is one of the most modded on BeamMP with over 110+ mods to choose from!</div>
       </div>
       <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-        <h2 class="title-font font-medium text-3xl text-white">{{moddedServer.players}}</h2>
+        <h2 class="title-font font-medium text-3xl text-white" v-if="moddedServer.players">{{moddedServer.players}}</h2>
+        <h2 class="title-font font-medium text-3xl text-white" v-else>N/A</h2>
         <p class="leading-relaxed">Players on Now</p>
       </div>
       <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-        <h2 class="title-font font-medium text-3xl text-white">{{moddedServer.maxplayers}}</h2>
+        <h2 class="title-font font-medium text-3xl text-white" v-if="moddedServer.maxplayers">{{moddedServer.maxplayers}}</h2>
+        <h2 class="title-font font-medium text-3xl text-white" v-else>N/A</h2>
         <p class="leading-relaxed">Max Players</p>
       </div>
       <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-        <h2 class="title-font font-medium text-3xl text-white">{{moddedServer.modstotal}}</h2>
+        <h2 class="title-font font-medium text-3xl text-white" v-if="moddedServer.modstotal">{{moddedServer.modstotal}}</h2>
+        <h2 class="title-font font-medium text-3xl text-white" v-else>N/A</h2>
         <p class="leading-relaxed">Mods</p>
       </div>
     </div>
