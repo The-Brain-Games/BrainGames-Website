@@ -66,6 +66,17 @@
     </div>
   </div>
 </section>
+<section class="text-gray-400 bg-gray-900 body-font">
+  <div class="container px-5 py-6 mx-auto flex flex-wrap">
+      <iframe
+        src="http://mc.realbraingames.com:8123/"
+        width="100%"
+        height="1200" 
+        frameborder="0">
+        <p>Your browser does not support iframes.</p>
+     </iframe>
+  </div>
+</section>
 </div>
 </template>
 
