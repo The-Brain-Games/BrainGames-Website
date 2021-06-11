@@ -19,21 +19,8 @@
               class="mt-4 px-4 py-2 bg-blue-600 text-white text-sm uppercase font-medium rounded hover:bg-blue-500 focus:outline-none focus:bg-blue-500"
               style="margin-right: 10px; background-color: #db2777"
             >
-              BrainCraft
+              Discord
             </button>
-          </a>
-          <a
-            href="https://discord.gg/vhGhEsDyCf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button
-              class="mt-4 px-4 py-2 bg-blue-600 text-white text-sm uppercase font-medium rounded hover:bg-blue-500 focus:outline-none focus:bg-blue-500"
-              style="margin-right: 10px; background-color: #d46b22"
-            >
-              BrainNG
-            </button>
-            <!-- color options: #c45506, #d97732, #d46b22 -->
           </a>
           <a
             href="https://www.patreon.com/thebraingames"
