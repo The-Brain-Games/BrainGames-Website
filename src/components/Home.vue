@@ -1,3 +1,11 @@
+<!-- 
+  Copyright (c) <year>, <copyright holder>
+  All rights reserved.
+
+  This source code is licensed under the BSD-style license found in the
+  LICENSE file in the root directory of this source tree. 
+-->
+
 <template>
   <div>
     <div class="w-full bg-cover bg-center header-image" style="height: 32rem">

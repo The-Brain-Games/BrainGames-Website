@@ -1,3 +1,11 @@
+<!-- 
+  Copyright (c) <year>, <copyright holder>
+  All rights reserved.
+
+  This source code is licensed under the BSD-style license found in the
+  LICENSE file in the root directory of this source tree. 
+-->
+
 <template>
   <div class="container mx-auto m-auto" style="max-width: 800px; margin-top: 150px;">
     <h2 class="text-white text-3xl mb-1 font-medium title-font">Mod Suggestion Form</h2>
