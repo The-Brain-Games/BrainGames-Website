@@ -75,7 +75,8 @@
   </div>
 </section>
 <section class="text-gray-400 bg-gray-900 body-font">
-  <div class="container px-5 py-6 mx-auto flex flex-wrap">
+  <div class="container px-5 py-12 mx-auto flex flex-wrap">
+    <div class="container border-4 border-gray-800">
       <iframe
         src="https://map.realbraingames.com:24569/"
         width="100%"
@@ -83,6 +84,7 @@
         frameborder="0">
         <p>Your browser does not support iframes.</p>
      </iframe>
+    </div>
   </div>
 </section>
 </div>
