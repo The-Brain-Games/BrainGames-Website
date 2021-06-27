@@ -78,6 +78,7 @@
   <div class="container px-5 py-12 mx-auto flex flex-wrap">
     <div class="container border-4 border-gray-800">
       <iframe
+        class="iframe-placeholder"
         src="https://map.realbraingames.com:24569/"
         width="100%"
         height="1200" 
@@ -112,5 +113,7 @@
 </script>
 
 <style>
-
+.iframe-placeholder {
+  background: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100% 100%"><text fill="%23a255a6" x="50%" y="50%" font-family="\'Lucida Grande\', sans-serif" font-size="24" text-anchor="middle">Loading Dynamic Map...</text></svg>') 0px 0px no-repeat;
+}
 </style>
