@@ -31,7 +31,7 @@
           <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
             <h2 class="tracking-widest text-sm title-font font-medium text-pink-400 mb-1">BrainCraft</h2>
             <h1 class="title-font text-lg font-medium text-white mb-3">Community</h1>
-            <p class="leading-relaxed">BrainCraft is a small, humble community who are very active on the <a href="https://discord.gg/TfvF9J8Ks8" style="color:#753e61" target="_blank" rel="noopener noreferrer">Discord</a>.</p>
+            <p class="leading-relaxed">BrainCraft is a small, humble community who are very active on the <a href="https://discord.gg/uWKNJbj7dT" style="color:#753e61" target="_blank" rel="noopener noreferrer">Discord</a>.</p>
           </div>
         </div>
       </div>
