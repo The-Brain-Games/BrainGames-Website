@@ -19,7 +19,7 @@
             The Brain Games
           </h1>
           <a
-            href="https://discord.gg/uWKNJbj7dT"
+            href="https://discord.gg/vhGhEsDyCf"
             target="_blank"
             rel="noopener noreferrer"
           >
