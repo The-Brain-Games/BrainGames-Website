@@ -39,7 +39,7 @@
               <div
                 class="w-full lg:w-3/12 px-4 py-6 lg:order-2 flex justify-center"
               >
-                <div class="relative">
+                <div class="relative flex justify-center">
                   <img
                     alt="..."
                     :src="GrantBGreat"
@@ -113,7 +113,7 @@
               <div
                 class="w-full lg:w-3/12 px-4 py-6 lg:order-2 flex justify-center"
               >
-                <div class="relative">
+                <div class="relative flex justify-center">
                   <img
                     alt="..."
                     :src="perfectsquare150"
@@ -191,7 +191,7 @@
               <div
                 class="w-full lg:w-3/12 px-4 py-6 lg:order-2 flex justify-center"
               >
-                <div class="relative">
+                <div class="relative flex justify-center">
                   <img
                     alt="..."
                     :src="JohnS"
