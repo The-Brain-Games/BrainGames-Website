@@ -55,8 +55,7 @@
             <div class="flex flex-col">
               <span class="font-bold text-white uppercase mt-4 md:mt-0 mb-2">Support</span>
               <span class="my-2"><a href="https://www.patreon.com/thebraingames" target="_blank" rel="noopener noreferrer" class="text-pink-700  text-md hover:text-pink-500">Donate</a></span>
-              <span class="my-2"><a href="https://discord.gg/TfvF9J8Ks8" target="_blank" rel="noopener noreferrer" class="text-pink-700 text-md hover:text-pink-500">BrainCraft Discord</a></span>
-              <span class="my-2"><a href="https://discord.gg/vhGhEsDyCf" target="_blank" rel="noopener noreferrer" class="text-pink-700 text-md hover:text-pink-500">BrainNG Discord</a></span>
+              <span class="my-2"><a href="https://discord.gg/vhGhEsDyCf" target="_blank" rel="noopener noreferrer" class="text-pink-700 text-md hover:text-pink-500">Discord</a></span>
             </div>
             <div class="flex flex-col">
               <span class="font-bold text-white uppercase mt-4 md:mt-0 mb-2">Source</span>
@@ -69,7 +68,7 @@
         <div class="mt-16 border-t-2 border-gray-300 flex flex-col items-center">
           <div class="sm:w-2/3 text-center py-6">
             <p class="text-sm text-pink-700 font-bold mb-2">
-              Brain Games
+              Copyright (c) 2020, Brain Games
             </p>
           </div>
         </div>
