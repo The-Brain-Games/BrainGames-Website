@@ -12,7 +12,7 @@
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-20">
       <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">BrainCraft</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-pink-600">BrainCraft is a 1.16.5 semi-vanilla Minecraft smp server that was opened back in March of 2020. The server can be joined on version 1.16.5 of the bedrock or java edition's of Minecraft</p>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-pink-600">BrainCraft is a semi-vanilla Minecraft smp server that was last reset in August 2022.</p>
     </div>
     <div class="flex flex-wrap -m-4">
       <div class="lg:w-1/3 sm:w-1/2 p-4">
@@ -75,7 +75,7 @@
   </div>
 </section>
 <section class="text-gray-400 bg-gray-900 body-font">
-  <div class="container px-5 py-12 mx-auto flex flex-wrap">
+  <!-- <div class="container px-5 py-12 mx-auto flex flex-wrap">
     <div class="container border-4 border-gray-800">
       <iframe
         class="iframe-placeholder"
@@ -85,6 +85,33 @@
         frameborder="0">
         <p>Your browser does not support iframes.</p>
      </iframe>
+    </div>
+  </div> -->
+  <div
+    class="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50 p-6"
+  >
+    <div class="text-center">
+      <a
+        href="https://rbgn-my.sharepoint.com/:u:/g/personal/grant_rbgn_ca/EUsvNW9vGrFEkrmVouGNaNsBKZZceMHp_TPfW_OIIIjLHg?e=1zaDc1&download=1"
+      >
+        <button
+          class="mt-4 px-6 py-2 bg-blue-600 text-white text-sm uppercase font-medium rounded hover:bg-blue-500 focus:outline-none focus:bg-blue-500"
+          style="margin-right: 10px; background-color: #db2777"
+        >
+          Old World Download
+        </button>
+      </a>
+      <a
+        href="https://www.patreon.com/thebraingames"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button
+          class="mt-4 px-6 py-2 bg-blue-600 text-white text-sm uppercase font-medium rounded hover:bg-blue-500 focus:outline-none focus:bg-blue-500"
+        >
+          Dynamic Map
+        </button>
+      </a>
     </div>
   </div>
 </section>

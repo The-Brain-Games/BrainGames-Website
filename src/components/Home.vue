@@ -57,11 +57,10 @@
               BrainCraft
             </h1>
             <p class="leading-relaxed text-base">
-              BrainCraft is a 1.16.5 semi-vanilla Minecraft smp server that was
-              opened back in March of 2020.
+              BrainCraft is a semi-vanilla Minecraft smp server that was
+              last reset in August 2022.
               <br />
-              The server can be joined on version 1.16.5 of the bedrock or java
-              edition's of Minecraft.
+              Our Minecraft server is the original pride and joy of the Brain Games!
             </p>
             <router-link to="/braincraft" class="text-pink-400 inline-flex items-center mt-4"
               >Learn More
@@ -110,7 +109,7 @@
             </h1>
             <p class="leading-relaxed text-base">
               This discord is also home to the BeamMP Status discord bot. 
-              This bot is used by multiple other servers in the community for
+              This bot is used by many other servers in the community for
               pinging and getting information about BeamMP servers.
             </p>
             <a 
